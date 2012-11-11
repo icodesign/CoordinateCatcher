@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Coordinate Catcher Google Maps</title>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&libraries=places"></script>
+<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+      <a class="brand" href="#">Coordinate Catcher</a>
+      <ul class="nav">
+      </ul>
+    </div>
+    </div>
+    <div class="container-fluid">
+    <div class="row-fluid">
+	<div class="span9">
+    	  <div id="map_canvas"></div>
+	</div>
+	<div class="span3">
+	<h4>Search:</h4>
+	<input type="text" id="search" placeholder="Type places here…"> 	
+	<button class="btn btn-primary" id="searchbtn" type="button">GO</button>
+	<h4>Coordinate:</h4>
+	<pre><h5 id="coord">Click the map to know the coorninate..</h5></pre>
+	<h4>Address:</h4>
+	<pre><h5 id="address"></h5></pre>
+	</div>
+    </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/coord.js"></script>
+  </body>
+
+</html>
